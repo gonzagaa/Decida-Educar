@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/*
+
+CORES:
+ - Amarelo: F6D100
+ - Preto: 1c1c1c
+*/
+
+.mobile-item{display: none !important;}
+.desktop-item{display: block !important;}
+
+/*Cor dos links hover*/
+a:hover, a:active,header nav.navbar.white-link .navbar-nav > li > a:hover, nav.navbar.bootsnav.white-link ul.nav > li > a:hover, header nav.navbar.white-link .header-social-icon a:hover, nav.navbar.bootsnav.white-link .header-social-icon a:hover, header nav.navbar.white-link .header-searchbar a:hover, nav.navbar.bootsnav.white-link .header-searchbar a:hover, header nav.navbar.bootsnav ul.nav.white-link > li > a:hover, header.header-appear nav.header-dark-transparent .navbar-nav > li > a:hover, header.header-appear nav.header-dark .navbar-nav > li > a:hover, header.sticky nav.header-dark .navbar-nav > li > a:hover, header.sticky nav.header-dark-transparent .navbar-nav > li > a:hover, header.header-appear nav.header-dark-transparent .search-button:hover, header.header-appear nav.header-dark .search-button:hover, header.sticky nav.header-dark .search-button:hover, header.sticky nav.header-dark-transparent .search-button:hover{
+    color: #F6D100 !important;
+}
+/*Cor de fundo do menu principal*/
+
+header .logo .logo-dark.default, header .logo .logo-light.default{
+    max-height: 70px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer{
+    border-top: 4px solid #F6D100 !important;
+}
+
+.navbar-default a{
+    font-size: 14px !important;
+}
+header nav .navbar-nav > li > a{
+    margin: 0 10px !important;
+}
+
+.simple-dropdown .dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.interna .simple-dropdown .dropdown-menu{
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+header nav.navbar-default, nav.navbar.bootsnav{
+    /*background-color: rgba(35,35,35,0.8) !important;*/
+}
+
+/*.sticky header nav.navbar-default, nav.navbar.bootsnav{*/
+    /*background-color: rgba(35,35,35,1) !important;*/
+/*}*/
+
+.text-amarelo{
+    color: #F6D100;
+}
+.bg-amarelo{
+    background-color:#F6D100;
+}
+
+.scroll-top-arrow:hover{
+    color: #0b0b0b;
+    background-color:#F6D100;
+}
+
+.custom_button{
+    background-color:#F6D100 !important;
+    border-color: #F6D100 !important;
+    color: #1c1c1c !important;
+}
+.custom_button:hover{
+    background-color:#FFF !important;
+    color:#F6D100 !important;
+    border-color: #f6d100 !important;
+}
+
+#icon-whatsapp{
+    position: fixed;
+    bottom: 28px;
+    right: 90px;
+    z-index: 9999;
+}
+
+#icon-whatsapp img{
+    width: 40px;
+}
+
+@media all and (max-width: 990px){
+.social-icon-style-8{padding-bottom: 25px !important;}
+.mobile-item{display: block !important;}
+.desktop-item{display: none !important;}
+}
